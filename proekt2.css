@@ -1,0 +1,165 @@
+header{
+    background-color:rgb(0, 0, 0);
+    padding: 1px;
+    text-align:left;
+    position:fixed;
+    width:100%;
+    z-index: 1;
+    top:0%;
+    left:0%
+}
+header h1{
+    color:white;
+}
+header p{
+    color:white;
+}
+nav p{
+  text-align:left;
+  font-size:25px;
+  padding:5px;
+}
+nav li {
+    display:inline-block;
+    width:12%;
+    border:2px ;
+    color:rgb(184, 102, 102);
+    text-align:center;
+    float:right;
+    width:150px;
+    font-size:25px;
+
+}
+nav li a{
+  color:rgb(214, 207, 207);
+  text-decoration:none;
+
+}
+nav li a:hover{
+    color:rgb(214, 207, 207);
+    background-color: rgba(0, 255, 0, 0.425);
+    text-decoration:none;
+    padding:6px;
+    transition:background 0.8s;
+    border-radius: 5px;
+}
+
+nav li a:hover{
+text-decoration:wavy;
+}
+
+body {
+    background-image: url('pozadina.jpg');
+    zoom: 100%;
+    background-size:cover;
+  }
+ .tekst h2{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    
+ }
+ .tekst p {
+    color:white;
+    font-size:20px;
+    text-align: center;
+ }
+  form {
+    font-size:20px;
+    text-align:left;
+    top: 100px;
+  }
+  form .fname{
+    display: flex;
+    flex-direction: column;
+  }
+  div{
+  background-color: #1b1b32;
+  border-radius:0.25rem;
+  opacity: 95%;
+  line-height: 1.7;
+  width: 600px;
+  padding: 100px;
+  margin: 0 auto;
+  top:100%;
+  font-weight:400;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  
+  }
+input[type=submit] {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+input[type=placeholder]
+{
+  text-align:left;
+}
+
+input[type=text]{
+font-size: 30px;
+border-radius:5px;
+border-color:blue;
+padding:5px ;
+display:flex;
+width:107%;
+font-size: inherit;
+
+
+}
+input[type=text1]{
+  width:100%;
+  font-size: 30px;
+border-radius:5px;
+border-color:blue;
+padding:30px ;
+display:flex;
+font-size: inherit;
+
+}
+
+label[for]{
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    font-size:1.125rem;
+    text-align:left;
+
+  
+}
+select[id]{
+  font-size: inherit;
+    padding:5px;
+    width:109%;
+    text-align:left;
+    border-radius:0.25rem;
+}
+.radiogrupa{
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  transform: scale(1.8);
+  margin-right: 10px;
+}
+input[type="checkbox"]{
+  transform: scale(1.8);
+  margin-right: 10px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
